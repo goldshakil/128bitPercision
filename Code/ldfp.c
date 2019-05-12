@@ -32,10 +32,10 @@ int TwoOf(int n)
 	return TwoOf(n - 1) * 2;
 }
 
-long_double double_to_long_double(double op)
+long_double double_to_long_double(double op) //conversion
 {
 	long_double ret = { { 0x0 }, };
-	ret.IsZero = 0;
+	ret.IsZero = 0; 
 
 	cast Casted = (cast)&op;
 
