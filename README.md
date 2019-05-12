@@ -9,3 +9,6 @@ This project implements a "128-bit data type" with all its basic mathematical op
 * ldfp.c has the implementation of all the functions needed for extraction and manipulation
 
 
+* Check Sample_Input_Output Image for more details
+
+
